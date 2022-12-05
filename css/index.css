@@ -773,7 +773,10 @@ video{
 }
 .close img{
  width: 100%;
-
+border: 1px solid #f2f6f6;
+padding: 15px;
+border-radius: 15px;
+box-sizing: border-box;
 }
 
 
