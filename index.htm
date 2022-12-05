@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<!--
+INÊS GALIZA
+UP201906223
+PROJETO FINAL
+WEB DESIGN - LDC FBAUP
+PÁGINA ORIGINAL: https://alistapart.com/
+URL: https://users.fba.up.pt/~up201906223/projeto
+-->
+
+
+<!--
+
+
+  SERÁ PRECISO:
+  VALIDAR O DOCUMENTO DUAS VEZES
+   HTML - https://validator.w3.org/
+   CSS - http://jigsaw.w3.org/css-validator/
+
+
+
+  NOTAS PARA O PROFESSOR:
+  - as imagens estão com uma qualidade mais baixa
+  para o site ficar mais leve
+  -
+
+-->
+
+<html lang="en">
+
+<head>
+  <title> Inês Galiza </title>
+  <link rel="icon" href="images/logo.svg" type="image/svg" sizes="16x16">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<!--  fazer a importação da formatação-->
+  <link rel="stylesheet" type="text/css" href="css/index.css"/>
+  <script src="index.js"></script>
+
+</head>
+
+<body>
+
+
+
+
+
+
+<header>
+
+      <div class="intro">
+      <div class="aboutme-title"> <h3> <span>Hi!</span> <span>My name</span> <span>is Inês</span> <span>Galiza</span></h3> </div> <div class="smile">
+      <img src="images/logo.svg" alt="logo a smile face">
+    </div>
+
+<div class="mobile-aboutme">   </div>
+
+    <div class="aboutme">
+
+
+      <h5>I’m a design student, born in Porto in 2001.<br>Currently, I study Communication Design at the Faculty of Fine Arts of Porto, Portugal.</h5>
+
+      <p> Since a young age I have been fascinated with arts and music. I am a music lover and addicted to listening to music all day, but it is also an inspiration to all my work. I really enjoy travelling, especially camping in the summer to meet new people and have new experiences.
+  </p>
+
+  <p> In my work, I always try to bring something different to represent the image in my mind. I like to work between both the print and digital worlds, as I cannot settle with a single type of design or style. In addition, my interests are building visual identities, websites, editorial publications and I especially have an interest for film and photography.</p>
+  <p> To see more of my work:</p>
+
+  <a class="icon" href="https://www.instagram.com/ines_galiza/" target="_blank"> <img src="images/instagram.svg" alt="Instagram Logo"></a>
+
+  <a class="icon" href="https://www.behance.net/inesgaliza2020" target="_blank">
+  <img src="images/bahance.svg" alt="Behance Logo">
+  </a>
+
+  <a class="icon" href="https://twitter.com/inesgaliza" target="_blank"> <img src="images/twitter.svg" alt="Twitter Logo">
+  </a>
+
+
+
+</div>
+
+<div class="gridimage">
+
+<div class="portrait">
+  <img  src="images/me2.jpg" alt="Photography of me in pink">
+  <img  src="images/me1.jpg" alt="Photography of me in purple">
+  <img  src="images/dotpurple.svg" alt="Purple Dot">
+</div>
+<div class="portrait">
+  <img src="images/dotpink.svg" alt="Pink Dot">
+  <img src="images/me3.jpg" alt="Photography of me in black and white">
+  <img src="images/me4.jpg" alt="Photography of me in orange">
+</div>
+<div class="portrait">
+  <img src="images/me5.jpg" alt="Photography of me in blue">
+  <img src="images/dotblue.svg" alt="Blue Dot">
+  <img src="images/dot.svg" alt="Orange Dot">
+</div>
+
+
+</div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+   </header>
+
+
+
+
+<main>
+
+<!--__________________UX DESIGN__________________-->
+
+<div id="background-uxdesign">
+  <div class="category">
+      <div class="editorial">
+
+          <h1>WEB DESIGN</h1>
+      </div>
+      <button class="arrow" onclick="SeeMore('grad0')" type="button">
+
+              <img id="setaux" src="images/arrow_back.svg" alt="arrow to open the category">
+
+
+      </button>
+            </div>
+</div>
+
+<div id="grad0">
+  <div class="portefolio">
+      <div class="title_description">
+        <h4  id="ux">DATERRA WEBSITE</h4> <p id="uxdata">2019</p>
+
+      </div>
+          <div class="description">
+            <p id="uxp">For this project we were asked to create a website representing a national company or brand. I chose the brand of vegetarian restaurants called "daTerra".</p>
+          </div>
+          <div class="firstimage">
+            <img src="images/index.jpg" > </div>
+          <div class="secondimage">
+            <img src="images/servico.jpg" > </div>
+            <div class="thirdimage">
+              <video autoplay muted>  <source src="images/mockup_terra.mp4" type="video/mp4"> </video> </div>
+          <div class="firstimage">
+            <img src="images/mobilemockup_daterra.jpg"> </div>
+          <div class="secondimage">
+            <img src="images/mobile.jpg" > </div>
+            <div class="close">
+              <button onclick="SeeMore('grad0')" type="button">
+                      <img src="images/close.svg" alt="button to close the category">
+
+              </button>
+            </div>
+  </div>
+
+
+
+
+
+</div>
+
+
+<!--__________________1.0.FIM DO EDITORIAL__________________-->
+
+
+
+
+
+<!--__________________1.0.EDITORIAL__________________-->
+
+  <div id="background-editorial">
+        <div class="category">
+            <div class="editorial">
+
+                <h1>EDITORIAL</h1>
+            </div>
+            <button class="arrow" onclick="SeeMore('grad1')" type="button">
+
+                    <img src="images/arrow_back.svg" alt="arrow to open the category">
+
+
+            </button>
+                  </div>
+  </div>
+
+      <div id="grad1">
+        <div class="portefolio">
+            <div class="title_description">
+              <h4>ARTISTAS CONTEMPORÂNEAS EM PORTUGAL</h4> <p>2021</p>
+
+            </div>
+                <div class="description">
+                  <p>Our solution for the project was based on the creation of an editorial artifact and its respective packaging, for a hypothetical anthology of contemporary Portuguese female artists.</p>
+                </div>
+                <div class="firstimage">
+                  <img src="images/1.editorial/01.jpg" alt="Book's Cover"> </div>
+                <div class="secondimage">
+                  <img src="images/1.editorial/02.jpg" alt="Book's first page"> </div>
+                  <div class="thirdimage">
+                    <img src="images/1.editorial/09.jpg" alt="Layout Introduction design of the book"> </div>
+                <div class="firstimage">
+                  <img src="images/1.editorial/04.jpg" alt="architecture layout of the book"> </div>
+                <div class="secondimage">
+                  <img src="images/1.editorial/05.jpg" alt="design layout of the book "> </div>
+                  <div class="close">
+                    <button onclick="SeeMore('grad1')" type="button">
+                            <img src="images/close.svg" alt="button to close the category">
+
+                    </button>
+                  </div>
+        </div>
+
+
+
+
+
+      </div>
+
+
+<!--__________________1.0.FIM DO EDITORIAL__________________-->
+
+
+
+
+
+
+<!--__________________ 2.0.ILLUSTRATION__________________-->
+
+
+            <div id="background-illustration">
+              <div class="category">
+                <div class="editorial">
+                  <h1>ILLUSTRATION</h1>
+                </div>
+                <button class="arrow" onclick="SeeMore('grad2')" type="button">
+
+                    <img src="images/arrow_back.svg" alt="arrow to open the category">
+
+                </button>
+              </div>
+            </div>
+
+
+                  <div id="grad2">
+    <div class="portefolio">
+                        <div class="title_description">
+                          <h4> GIRLS OFF SKATE </h4>
+                            <p>2020</p>
+                        </div>
+                            <div class="description">
+                              <p> "Girls off skate" is a project that aims to high-light women in the skate world. This little pink booklet takes on some of the prejudice that female athletes suffer daily and, by swapping genders, creates irony filled scenes that serve to acentuate common stereotypes and call them out. </p>
+                            </div>
+                            <div class="firstimage">
+                              <img src="images/2.illustration/01.jpg" alt="logo of girls off skate"> </div>
+                            <div class="secondimage">
+                              <img src="images/2.illustration/02.jpg" alt="two illustrations from the booklet"> </div>
+                            <div class="thirdimage">
+                              <img src="images/2.illustration/03.gif" alt="a gif of the booklet "> </div>
+                            <div class="firstimage">
+                              <img src="images/2.illustration/04.jpg" alt="packeges of the stickers"> </div>
+                            <div class="secondimage">
+                              <img src="images/2.illustration/05.jpg" alt="the stickers of    the skaters illustrsations"> </div>
+
+                              <div class="close">
+                                <button onclick="SeeMore('grad2')" type="button">
+                                        <img src="images/close.svg" alt="button to close the category">
+
+                                </button>
+                              </div>
+
+                    </div>
+
+
+
+
+
+                  </div>
+
+<!--_______________ 2.0.FIM DO ILLUSTRATION__________________-->
+
+
+
+<!--______________3.0.IDENTITY_______-->
+
+  <div id="background-identity">
+    <div class="category">
+      <div class="editorial">
+        <h1>IDENTITY</h1>
+      </div>
+      <button class="arrow" onclick="SeeMore('grad3')" type="button">
+
+          <img src="images/arrow_back.svg" alt="arrow to open the category">
+
+
+      </button>
+    </div>
+  </div>
+
+  <div id="grad3">
+    <div class="portefolio">
+        <div class="title_description">
+          <h4>DYSTOPIA</h4>
+            <p>2020</p>
+        </div>
+            <div class="description">
+              <p>"Dystopia" is a collection composed of three of what i consider to be the best books of the 20th century. Although all of them were written over fifty years ago, their messages still stand to this date. The thought behind the concept for this project relies precisely in this fundamental aspect.</p>
+            </div>
+            <div class="firstimage">
+              <img src="images/3.identity/03.jpg" alt="spine of the three books"> </div>
+            <div class="secondimage">
+              <img src="images/3.identity/02.jpg" alt="spine and back cover of brave new world"> </div>
+            <div class="thirdimage">
+              <img src="images/3.identity/01.jpg" alt="Book's cover of the colection dystopia">
+             </div>
+            <div class="fourimage">
+              <img src="images/3.identity/01_laranja.gif" alt="gif of a clockwork orange’s logo">
+            <img src="images/3.identity/02_verde.gif" alt="gif of brave new world’s logo">
+          <img src="images/3.identity/03_azul.gif" alt="gif of nineteen eighty-four’s logo"> </div>
+          <div class="close">
+            <button onclick="SeeMore('grad3')" type="button">
+                    <img src="images/close.svg" alt="button to close the category">
+
+            </button>
+          </div>
+
+    </div>
+
+
+  </div>
+
+
+<!--___________ 3.0.FIM DO IDENTITY_________-->
+
+
+
+<!---__________ 4.0.FILM & PHOTOGRAPHY__________-->
+
+
+  <div id="background-filmphotography">
+    <div class="category">
+      <div class="editorial">
+        <h1>FILM & PHOTOGRAPHY</h1>
+      </div>
+      <button class="arrow" onclick="SeeMore('grad4')" type="button">
+
+          <img src="images/arrow_back.svg" alt="arrow to open the category">
+
+
+        </button>
+      </div>
+  </div>
+
+  <div id="grad4">
+    <div class="portefolio">
+        <div class="title_description">
+          <h4> DEVELOOP </h4>
+            <p>2021</p>
+
+        </div>
+            <div class="description">
+              <p>A short-film created in colaboration with <a target="_blank" href="https://www.behance.net/franciscarebelo1">Francisca Rebelo</a>, <a target="_blank" href="https://www.behance.net/ritamelo3">Rita Melo</a> and <a target="_blank" href="https://www.behance.net/insleal2">Inês Leal</a>. "Sara waits impatient while she watches the time pass by. Meanwhile, arrives an unknown boy and with a misterious package, whom occupies a near seat. Moments after, Sara realizes the package was left behind and, in this moment, her curiosity increases and she isn't able to restrain herself from approaching."</p>
+            </div>
+            <div class="firstimage">
+              <img src="images/4.filmphotography/05.jpeg" alt="Picture of Rita Melo, me, Inês Leal and Francisca Rebelo"></div>
+            <div class="secondimage">
+              <img src="images/4.filmphotography/01.jpeg" alt="Picture of Rita Melo and me using a video camara"> </div>
+            <div class="thirdimage">
+              <img src="images/4.filmphotography/04.jpg" alt="Develoop poster's">
+               </div>
+            <div class="firstimage">
+              <img src="images/4.filmphotography/03.jpeg" alt="picture of cemetery from the film set"> </div>
+            <div class="secondimage">
+              <img src="images/4.filmphotography/02.jpeg" alt="picture of train station from the film set"> </div>
+              <div class="close">
+                <button id="close" onclick="SeeMore('grad4')" type="button">
+                        <img src="images/close.svg" alt="button to close the category">
+
+                </button>
+              </div>
+    </div>
+
+
+  </div>
+
+<!--___________ FIM DO 4.0.FILM & PHOTOGRAPHY___-->
+
+
+</main>
+
+
+
+
+
+
+
+<!--_____FOOTER-->
+
+
+
+
+<footer>
+
+
+
+</footer>
+<!--END_____FOOTER-->
+
+
+  </body>
+
+
+  </html>
