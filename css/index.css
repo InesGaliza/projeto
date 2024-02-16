@@ -310,9 +310,11 @@ header{
 .aboutme h2{
 	grid-column: 5/6;
 	line-height: 0;
+	padding-left: 10px;
 }
 
 .aboutme p{
+	padding-left: 10px;
 	padding-top: 2vw;
 	grid-column: 1/5;
 }
@@ -1220,6 +1222,8 @@ max-width: 360px;
 	.aboutme h5 {
 	   line-height: 2.3rem;
 	    letter-spacing: 0;
+	    padding-left: 10px;
+
 	}
 
 	.aboutme img{
